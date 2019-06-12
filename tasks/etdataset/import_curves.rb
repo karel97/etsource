@@ -65,13 +65,6 @@ namespace :import do
           cp_csv(csv, dest)
         end
 
-        # If nl, copy es2012 solar pv profile as solar_pv_profile_2.csv
-        if country == 'nl'
-          cp_csv(Pathname.new("#{ETDATASET_PATH}/curves/supply/solar/data/es/2015/output/solar_pv.csv"), Pathname.new("datasets/#{ country }/curves/solar_pv_profile_2.csv"))
-        else
-          FileUtils.ln_sf(Pathname.new("../../nl/curves/solar_pv_profile_2.csv"), dest)
-        end
-
         # Remove the name of this file from missing_curves.
         missing_curves.delete(csv.basename)
       end
@@ -94,9 +87,16 @@ namespace :import do
       # Duplicate solar_pv.csv to solar_pv_profile_1.csv.
       cp_csv(Pathname.new("datasets/#{ country }/curves/solar_pv.csv"), Pathname.new("datasets/#{ country }/curves/solar_pv_profile_1.csv"))
 
+      # If nl, copy es2012 solar pv profile as solar_pv_profile_2.csv
+      if country == 'nl'
+        cp_csv(Pathname.new("#{ETDATASET_PATH}/curves/supply/solar/data/es/2015/output/solar_pv.csv"), Pathname.new("datasets/#{ country }/curves/solar_pv_profile_2.csv"))
+      else
+        FileUtils.ln_sf(Pathname.new("../../nl/curves/solar_pv_profile_2.csv"), dest)
+      end
+
+      # If the directories for the heat curves do not exist yet,
+      # create new empty ones for the nl dataset
       if etdataset_country == 'nl'
-        # If the directories for the heat curves do not exist yet,
-        # create new empty ones
         ["heat/", "heat/1987", "heat/default"].each do |dir|
           if !dest.join(dir).exist?
             FileUtils.mkdir_p(dest.join(dir))
