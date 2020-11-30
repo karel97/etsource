@@ -1,0 +1,2 @@
+- query = present:Array.new(8760) { (Kernel.rand * 4 + 4).round(2) }
+- unit = curve
