@@ -422,7 +422,7 @@ industry_steel_blastfurnace_burner_coal_gas:
 industry_final_demand_biodiesel:
   demand: 0.0
 industry_final_demand_electricity:
-  demand: 19829.3913994432
+  demand: 19829.391399500004
 industry_heat_burner_coal:
   demand: 0.0
   output:
@@ -450,7 +450,7 @@ industry_chp_turbine_gas_power_fuelmix:
     :steam_hot_water: 0.42
     :electricity: 0.38
 industry_useful_demand_for_chemical_refineries_crude_oil_non_energetic:
-  demand: 2650.9700000000003
+  demand: 2650.97332178
 industry_chp_combined_cycle_gas_power_fuelmix:
   demand: 4333.0
   output:
@@ -476,7 +476,7 @@ industry_final_demand_crude_oil:
     :bio_oil: 0.0
     :crude_oil: 1.0
 industry_final_demand_other_oil:
-  demand: 100.762
+  demand: 100.7616129356681
 industry_heat_burner_lignite:
   demand: 0.0
   output:
@@ -695,7 +695,7 @@ industry_final_demand_for_other_coal-industry_final_demand_for_other_food_coal@c
 industry_final_demand_for_other_steam_hot_water-industry_final_demand_for_other_food_steam_hot_water@steam_hot_water:
   parent_share: 0.9061275382971143
 industry_final_demand_electricity-industry_final_demand_for_metal_electricity@electricity:
-  parent_share: 0.04151640276596266
+  parent_share: 0.04151640276870837
 industry_final_demand_for_chemical_electricity-industry_final_demand_for_chemical_other_electricity@electricity:
   parent_share: 0.9991766837427638
 industry_final_demand_for_other_electricity-industry_final_demand_for_other_paper_electricity@electricity:
@@ -709,7 +709,7 @@ industry_final_demand_coal_non_energetic-industry_final_demand_for_chemical_coal
 ? industry_final_demand_for_chemical_network_gas_non_energetic-industry_final_demand_for_chemical_refineries_network_gas_non_energetic@network_gas
 : parent_share: 0.0
 industry_final_demand_for_metal_electricity-industry_aluminium_smeltoven_electricity@electricity:
-  parent_share: 0.04028830161554383
+  parent_share: 0.04028830160783564
 ? industry_final_demand_for_chemical_wood_pellets_non_energetic-industry_final_demand_for_chemical_refineries_wood_pellets_non_energetic@wood_pellets
 : parent_share: 0.0
 industry_final_demand_for_other_paper_electricity-industry_other_paper_heater_electricity@electricity:
@@ -763,7 +763,7 @@ industry_final_demand_for_metal_network_gas-industry_steel_electricfurnace_burne
 industry_final_demand_for_other_food_electricity-industry_useful_demand_for_other_food_electricity@electricity:
   parent_share: 1.0
 industry_final_demand_for_metal_electricity-industry_aluminium_electrolysis_current_electricity@electricity:
-  parent_share: 0.9597116983844562
+  parent_share: 0.9597116983921643
 industry_final_demand_crude_oil-industry_final_demand_for_metal_crude_oil@crude_oil:
   parent_share: 0.0
 ? industry_chemicals_fertilizers_haber_bosch_process_hydrogen-industry_chemicals_fertilizers_processes_potential_residual_heat@useable_heat
@@ -809,7 +809,7 @@ industry_final_demand_for_metal_electricity-industry_steel_electricfurnace_elect
 industry_final_demand_for_chemical_wood_pellets-industry_final_demand_for_chemical_fertilizers_wood_pellets@wood_pellets:
   parent_share: 0.0
 industry_final_demand_electricity-industry_final_demand_for_chemical_electricity@electricity:
-  parent_share: 0.6150283849781919
+  parent_share: 0.6150283849764301
 industry_final_demand_for_chemical_coal-industry_final_demand_for_chemical_refineries_coal@coal:
   parent_share: 0.0
 industry_final_demand_for_metal_electricity-industry_steel_blastfurnace_current_consumption_useable_heat@electricity:
@@ -817,7 +817,7 @@ industry_final_demand_for_metal_electricity-industry_steel_blastfurnace_current_
 industry_final_demand_crude_oil_non_energetic-industry_final_demand_for_other_crude_oil_non_energetic@crude_oil:
   parent_share: 1.0
 industry_final_demand_network_gas-industry_final_demand_for_metal_network_gas@network_gas:
-  parent_share: 0.00602466002443104
+  parent_share: 0.0060246600244310555
 industry_final_demand_steam_hot_water-industry_final_demand_for_metal_steam_hot_water@steam_hot_water:
   parent_share: 0.0
 industry_final_demand_wood_pellets_non_energetic-industry_final_demand_for_chemical_wood_pellets_non_energetic@wood_pellets:
@@ -831,17 +831,17 @@ industry_final_demand_for_chemical_crude_oil-industry_final_demand_for_chemical_
 industry_final_demand_for_other_wood_pellets-industry_final_demand_for_other_paper_wood_pellets@wood_pellets:
   parent_share: 0.0
 industry_final_demand_for_chemical_steam_hot_water-industry_final_demand_for_chemical_refineries_steam_hot_water@steam_hot_water:
-  parent_share: 0.0009987233451053401
+  parent_share: 0.0009987233451053382
 ? industry_final_demand_for_chemical_wood_pellets_non_energetic-industry_final_demand_for_chemical_other_wood_pellets_non_energetic@wood_pellets
 : parent_share: 1.0
 industry_final_demand_for_chemical_network_gas-industry_final_demand_for_chemical_refineries_network_gas@network_gas:
-  parent_share: 0.0037208532023982523
+  parent_share: 0.0037208532023982463
 ? industry_useful_demand_for_chemical_refineries_useable_heat-industry_chemicals_refineries_flue_gasses_potential_residual_heat@useable_heat
 : parent_share: 0.18
 ? industry_useful_demand_for_chemical_refineries_useable_heat-industry_chemicals_refineries_processes_potential_residual_heat@useable_heat
 : parent_share: 0.29
 industry_final_demand_for_chemical_electricity-industry_final_demand_for_chemical_refineries_electricity@electricity:
-  parent_share: 0.0008233162572362367
+  parent_share: 0.0008233162572362359
 industry_final_demand_for_other_paper_electricity-industry_useful_demand_for_other_paper_electricity@electricity:
   parent_share: 1.0
 industry_final_demand_for_chemical_coal_non_energetic-industry_final_demand_for_chemical_fertilizers_coal_non_energetic@coal:
@@ -853,6 +853,6 @@ industry_final_demand_for_chemical_wood_pellets-industry_final_demand_for_chemic
 industry_final_demand_for_other_network_gas-industry_final_demand_for_other_paper_network_gas@network_gas:
   parent_share: 0.03779855942215636
 industry_final_demand_for_metal_network_gas-industry_aluminium_burner_network_gas@network_gas:
-  parent_share: 0.7302309897150565
+  parent_share: 0.7302309897150572
 industry_final_demand_for_metal_coal-industry_other_metals_burner_network_gas@coal:
   parent_share: 1.0
