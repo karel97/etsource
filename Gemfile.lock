@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/quintel/atlas.git
-  revision: bd5a494906c7a16885fe593bf8acfa9b57ba2086
-  ref: bd5a494
+  revision: 2d9acf1748a54222109f03968c906adc1ad14002
+  ref: 2d9acf1
   specs:
     atlas (1.0.0)
       activemodel (>= 4.1.14.1)
@@ -29,9 +29,9 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.4)
-      activesupport (= 6.1.4)
-    activesupport (6.1.4)
+    activemodel (6.1.4.1)
+      activesupport (= 6.1.4.1)
+    activesupport (6.1.4.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
