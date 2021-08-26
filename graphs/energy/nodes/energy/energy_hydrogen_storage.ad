@@ -1,6 +1,6 @@
 - use = undefined
 - groups = [preset_demand, hydrogen_storage, cost_hydrogen_storage, wacc_unproven_tech]
-- storage.cost_per_mwh = 3.4
+- storage.cost_per_mwh = 20.0
 - storage.decay = 0.0
 - storage.volume = 0.0
 - hydrogen.type = storage
